@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(37,38,42, 0.7);
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  
+  footer i {
+    margin: 0 10px;
+    font-size: 100px;
+    color: white;
+  }
+  
+  footer h1 {
+    font-size: 24px;
+    margin: 0 10px;
+    
+  }
+
+  .fa-facebook:hover {
+    color: #4469B0;
+  }
+
+  .fa-linkedin:hover {
+    color: #1178B3
+  }
+
+  .fa-twitter-square:hover {
+    color: #2AA3EF
+  }
+
+  .fa-instagram:hover {
+    background: -webkit-linear-gradient(#f09433, #cc2366);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

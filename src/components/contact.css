@@ -1,0 +1,46 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    min-height: 600px;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgba(37,38,42, 0.7);
+    margin-top: 50px;
+    color: white;
+}
+
+.contact-container h1 {
+    font-size: 48px;
+    padding: 20px;
+}
+
+.name-input {
+    margin: 15px;
+    width: 300px;
+    height: 40px;
+}
+.email-input {
+    margin: 15px;
+    width: 300px;
+    height: 40px;
+}
+.text-input {
+    margin: 15px;
+    width: 600px;
+    height: 100px;
+}
+
+.contact-submit {
+    font-size: 24px;
+    background-color: transparent;
+    color: #ededed;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.contact-submit:hover {
+    color: black;
+    background-color: #ededed;
+}

@@ -1,0 +1,120 @@
+.recall-car-container {
+    margin-top: -1px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: rgba(37,38,42, 0.7);
+}
+.recall-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    min-height: 20px;
+    font-size: 48px;
+    
+}
+.recall-info p {
+    margin-left: 130px;
+    color: #ededed;
+}
+
+.recall-info button {
+    background-color: transparent;
+    font-size: 24px;
+    width: 200px;
+    margin-right: 140px;
+    color: white;
+}
+
+.recall-info button:hover {
+    background-color: #ededed;
+    color: black;
+    font-size: 24px;
+    width: 200px;
+}
+
+.recall-make-selector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recall-car-info-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.recall-make {
+    height: 500px;
+    width: 400px;
+    overflow: auto;
+    border: 1px solid black;
+}
+.recall-make-selector-container button {
+    font-size: 24px;
+    background-color: transparent;
+    color: #ededed;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    max-width: 150px;
+}
+
+.recall-make-selector-container button:hover {
+    color: black;
+    background-color: #ededed;
+}
+
+.recall-model {
+    height: 500px;
+    width: 400px;
+    overflow: auto;
+    margin: 0 10px;
+    border: 1px solid black;
+}
+.recall-model-selector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.recall-model-selector-container button {
+    font-size: 24px;
+    background-color: transparent;
+    color: #ededed;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.recall-model-selector-container button:hover {
+    color: black;
+    background-color: #ededed;
+}
+
+.recall-year-selector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+}
+.recall-year button {
+    font-size: 24px;
+    background-color: transparent;
+    color: #ededed;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.recall-year button:hover {
+    color: black;
+    background-color: #ededed;
+}

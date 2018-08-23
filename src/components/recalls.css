@@ -1,0 +1,55 @@
+
+
+.recalls-container {
+    background-color: rgba(37,38,42, 0.8);
+    padding: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 25px;
+    color: white;
+}
+
+.recalls-header {
+    font-size: 48px;
+}
+
+.recalls-subheader {
+    font-size: 30px;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.single-recalls-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    
+}
+
+.single-recalls {
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    line-height: 1.5em;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+.single-recalls h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+
+}
+
+.single-recalls h3 {
+    font-size: 20px;
+    margin: 10px;
+}
+.recall-show {
+    padding: 15px;
+    text-shadow: 2px 3px 4px black;
+    
+}
+

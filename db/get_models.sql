@@ -1,0 +1,1 @@
+select * from models where make_id = $1;
