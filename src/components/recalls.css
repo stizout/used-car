@@ -53,3 +53,20 @@
     
 }
 
+@media (max-width: 500px) {
+    .recalls-container {
+        padding: 15px;
+        max-width: 350px;
+    }
+    .recalls-header, .recalls-subheader {
+        font-size: 23px;
+    }
+    /* .recalls-subheader {
+        font-size: 30px;
+        margin-left: 50px;
+        padding: 20px;
+    } */
+    .single-recalls-container {
+        width: 300px;        
+    }
+}

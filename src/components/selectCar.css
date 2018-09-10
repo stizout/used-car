@@ -48,7 +48,6 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 50px;
-    
 }
 
 .complaint-make {
@@ -122,4 +121,50 @@ body {
     background-color: #ededed;
 }
 
+@media (max-width: 500px) {
+    .complaint-select-car-container {
+        width: 350px;
+    }
+    .complaint-selected-info {
+        min-height: 20px;
+        font-size: 20px;
+    }
+    .complaint-selected-info p {
+        margin-left: 0px;
+    }
+    .complaint-selected-info button {
+        font-size: 18px;
+        max-width: 150px;
+        margin-right: 0px;
+    }
+    .complaint-car-info-container {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .complaint-make-selector-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .complaint-make, .complaint-model, .complaint-year-selector-container {
+        height: 300px;
+        width: 300px;
   
+    }
+    .complaint-make-selector-container button {
+        margin-top: 2.5px;
+        padding: 5px;
+        margin-left: 65px;
+    }
+    .complaint-model-selector-container button {
+        margin-top: 2.5px;
+        padding: 5px;
+        margin-left: 15px;
+    }
+    .complaint-year {
+        overflow: auto;
+    }
+    .complaint-year button {
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+}

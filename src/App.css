@@ -85,3 +85,20 @@ table {
 	color: white;
 }
 
+@media (max-width: 500px) {
+	body {
+		max-width: 500px;
+	}
+	.ui.tabular.menu {
+		font-size: 12px;
+		
+	}
+	.header-logo {
+		padding: 0px 20px;
+	}
+	
+	.brand {
+		font-size: 14px;
+
+	  }
+}

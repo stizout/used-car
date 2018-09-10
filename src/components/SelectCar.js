@@ -17,6 +17,9 @@ class SelectCar extends React.Component {
     }
 
     componentDidMount() {
+        (function () {
+            window.scrollTo(0,0)
+        })
         axios.get('/selectCar').then(res => {
             this.setState({
                 makes: res.data

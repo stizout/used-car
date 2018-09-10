@@ -38,3 +38,18 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  @media (max-width: 500px) {
+    footer {
+      padding: 50px;
+      max-width: 350px;
+      margin: 0 auto;
+      margin-top: 0px;
+    }
+    footer i {
+      margin: 0 10px;
+      font-size: 60px;
+      color: white;
+    }
+    
+}

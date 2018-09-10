@@ -46,7 +46,6 @@ class App extends Component {
           <Menu.Item name="Complaints" active={activeItem === 'Complaints'} onClick={this.handleItemClick} as={Link} to='/select'/>
           <Menu.Item name="Recalls" active={activeItem === 'Recalls'} onClick={this.handleItemClick} as={Link} to='/selectRecall'/>
           <Menu.Item name="Contact" active={activeItem === 'Contact'} onClick={this.handleItemClick} as={Link} to='/contact'/>
-          <p className="support">Support: complaintscar@gmail.com</p>
         </Menu>
         
         <Routes menuUpdate={this.menuUpdate}/>

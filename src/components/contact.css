@@ -44,3 +44,21 @@
     color: black;
     background-color: #ededed;
 }
+
+@media (max-width: 500px) {
+    .contact-container {
+        width: 350px;
+        min-height: 300px;
+        margin-top: 25px;
+    }
+    .contact-container h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .text-input {
+        margin: 15px;
+        width: 300px;
+        height: 100px;
+    }
+    
+}

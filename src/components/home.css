@@ -169,3 +169,61 @@ body {
     text-align: center;
     line-height: 1.5em;
   }
+
+
+
+  @media (max-width: 500px) {
+    body {
+      background-image: url('https://res.cloudinary.com/dvvwg1hp3/image/upload/v1535057916/android-wallpaper-asphalt-curve-775199.jpg');
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+    }
+    .home-body {
+      width: 350px;
+      padding: 25px 0px;
+      margin-top: 50px;
+    }
+    .parallax-top h1 {
+      font-size: 30px;
+      padding-top: 0px;
+    }
+    .boxes-container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 250px;
+      margin-left: 50px;
+    }
+    .box-title {
+      font-size: 38px;
+  }
+  .box-1 {
+    height: 350px;
+    width: 325px;
+    margin-bottom: 20px;
+  }
+  .box-2 {
+    height: 350px;
+    width: 325px;
+  }
+  .why-use-container {
+    padding-top: 0px;
+    margin-top: -120px;
+  }
+  .why-use-container h1 {
+    font-size: 30px;
+  }
+  .why-use-boxes {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .reason-1, .reason-2, .reason-3 {
+    height: 325px;
+    width: 325px;
+    margin: 15px 0;
+  }
+  .reason-1 p, .reason-2 p, .reason-3 p {
+    font-size: 20px;
+  }
+  }

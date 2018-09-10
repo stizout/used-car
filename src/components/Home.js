@@ -14,10 +14,12 @@ class Home extends React.Component {
                     <div className="parallax-top">
                         <h1>"Buy with confidence" <i className="fas fa-trademark"></i></h1>
                         <div className="boxes-container">
-                            <Link to="/select"><div className="box-1" onClick={() => this.props.menuUpdate('Complaints')}>
-                                <h2 className="box-title">Complaints</h2>
-                                <p>Make sure you never buy a lemon again!</p>
-                            </div></Link>
+                            <Link to="/select" className="complaint-boxes">
+                                <div className="box-1" onClick={() => this.props.menuUpdate('Complaints')}>
+                                    <h2 className="box-title">Complaints</h2>
+                                    <p>Make sure you never buy a lemon again!</p>
+                                </div>
+                            </Link>
                             <Link to="/selectRecall"><div className="box-2" onClick={() => this.props.menuUpdate('Recalls')}>
                                 <h2 className="box-title">Recalls</h2>
                                 <p>Does your car have defects?</p>
